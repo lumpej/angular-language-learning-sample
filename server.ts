@@ -33,7 +33,7 @@
    const indexHtml = join(serverDistFolder, 'index.server.html');
  
    // Update this line to add your API_KEY if you are not using env variables
-   const GEMINI_API_KEY = process.env['API_KEY'] || '';
+   const GEMINI_API_KEY = process.env['AIzaSyCtEgzUKw1cAcZwSLy_r5Eq-lIxveQUC6M'] || '';
    const commonEngine = new CommonEngine();
  
    const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
